@@ -1,8 +1,8 @@
 {-# LANGUAGE MagicHash #-}
 
-module Main where
-
 import Java
+
+
 foreign import java unsafe "@static eta.dl4j.Word2VecRawText.mainfun"
   word2VecRawText :: String->String -> IO ()
 

@@ -17,7 +17,7 @@ import java.util.Collection;
 
 public class Word2VecRawText {
 
-    private static Logger log = LoggerFactory.getLogger(Word2VecRawTextExample.class);
+    private static Logger log = LoggerFactory.getLogger(Word2VecRawText.class);
 
     public static void mainfun(String filePath,String outputPath) throws Exception {
 
