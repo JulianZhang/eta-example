@@ -63,4 +63,9 @@ public class Word2VecRawText {
 //        UiServer server = UiServer.getInstance();
 //        System.out.println("Started on port " + server.getPort());
     }
+
+    public static void main(String[] args) throws Exception {
+        mainfun("/Users/zhangjun/Documents/fudan/paper/run/logfile/Cods.log.2015-01-25" "/Users/zhangjun/code/ibm/eta-example/testoutput")
+    }
+
 }
