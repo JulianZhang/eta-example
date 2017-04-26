@@ -57,12 +57,11 @@ executable eta-example
   -- other-extensions:
 
   -- Other library packages from which modules are imported.
-  build-depends: wai
-                ,options
-                ,hjson
+  build-depends:options
                 ,base
 
-  java-sources: java/Word2VecRawText.java
+
+  -- java-sources: java/Word2VecRawText.java
 
   -- Directories containing source files.
   hs-source-dirs:      src
@@ -72,6 +71,6 @@ executable eta-example
 
   -- Java packages
   maven-depends:
-    org.deeplearning4j:deeplearning4j-core:0.7.2
-    ,org.deeplearning4j:deeplearning4j-nlp:0.7.2
-    ,org.nd4j:nd4j-native-platform:0.7.2
+    -- org.deeplearning4j:deeplearning4j-core:0.7.2
+    -- ,org.deeplearning4j:deeplearning4j-nlp:0.7.2
+    -- ,org.nd4j:nd4j-native-platform:0.7.2

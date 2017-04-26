@@ -4,6 +4,8 @@
 import Control.Applicative
 import Options
 
+
+
 data MainOptions = MainOptions
 	{ port :: Int
 	, message :: String
@@ -21,7 +23,7 @@ instance Options MainOptions where
 
 main :: IO ()
 main = runCommand $ \opts args -> do
-		putStrLn (message opts)
+		print $ message opts
 
 
     --word2VecRawText "/Users/zhangjun/Documents/fudan/paper/run/logfile/Cods.log.2015-01-25" "/Users/zhangjun/code/ibm/eta-example/testoutput"
