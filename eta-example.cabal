@@ -59,6 +59,10 @@ executable eta-example
   -- Other library packages from which modules are imported.
   build-depends:options
                 ,base
+                ,aeson
+                ,servant-server
+                ,wai
+                ,warp
 
 
   java-sources: java/Word2VecRawText.java
