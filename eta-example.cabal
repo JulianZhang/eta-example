@@ -61,7 +61,7 @@ executable eta-example
                 ,base
 
 
-  -- java-sources: java/Word2VecRawText.java
+  java-sources: java/Word2VecRawText.java
 
   -- Directories containing source files.
   hs-source-dirs:      src
