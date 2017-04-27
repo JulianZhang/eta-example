@@ -71,6 +71,6 @@ executable eta-example
 
   -- Java packages
   maven-depends:
-    -- org.deeplearning4j:deeplearning4j-core:0.7.2
-    -- ,org.deeplearning4j:deeplearning4j-nlp:0.7.2
-    -- ,org.nd4j:nd4j-native-platform:0.7.2
+    org.deeplearning4j:deeplearning4j-core:0.7.2
+    ,org.deeplearning4j:deeplearning4j-nlp:0.7.2
+    ,org.nd4j:nd4j-native-platform:0.7.2

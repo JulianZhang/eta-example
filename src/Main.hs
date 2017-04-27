@@ -1,6 +1,6 @@
 {-# LANGUAGE MagicHash #-}
 
--- import Java
+import Java
 import Control.Applicative
 import Options
 
@@ -18,8 +18,8 @@ instance Options MainOptions where
     		<*> simpleOption "message" "test message"
     		    "message for testing."
 
---foreign import java unsafe "@static eta.dl4j.Word2VecRawText.mainfun"
---  word2VecRawText :: String->String -> IO ()
+foreign import java unsafe "@static eta.dl4j.Word2VecRawText.mainfun"
+  word2VecRawText :: String->String -> IO ()
 
 main :: IO ()
 main = runCommand $ \opts args -> do
