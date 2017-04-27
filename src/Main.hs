@@ -23,7 +23,5 @@ foreign import java unsafe "@static eta.dl4j.Word2VecRawText.mainfun"
 
 main :: IO ()
 main = runCommand $ \opts args -> do
+		word2VecRawText "/Users/zhangjun/Documents/fudan/paper/run/logfile/Cods.log.2015-01-25" "/Users/zhangjun/code/ibm/eta-example/testoutput"
 		print $ message opts
-
-
-    --word2VecRawText "/Users/zhangjun/Documents/fudan/paper/run/logfile/Cods.log.2015-01-25" "/Users/zhangjun/code/ibm/eta-example/testoutput"
